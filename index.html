@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Malty Random">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -21,6 +21,7 @@
   <style>
     html {
       font-family: 'Helvetica Neue';
+      box-sizing: border-box;
     }
 
 
@@ -213,7 +214,7 @@
     document.body.style.height = '100vh';
   } else {
     document.body.style.height = '628px';
-  }
+  };
 
     document.addEventListener("DOMContentLoaded", function(event) {
       document.body.classList.add('fade-in');
