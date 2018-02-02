@@ -209,6 +209,12 @@
       }, 150);
     }
 
+  if(window.navigator.standalone === true) {
+    document.body.style.height = '100vh';
+  } else {
+    document.body.style.height = '628px';
+  }
+
     document.addEventListener("DOMContentLoaded", function(event) {
       document.body.classList.add('fade-in');
 
